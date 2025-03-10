@@ -1,0 +1,340 @@
+[{"heading":"CashPay",
+"logo":"/cashpay/logo.png",
+"description": "CashPay is a decentralized financial exchange built on the Polygon blockchain, enabling seamless transactions across multiple asset types. It supports crypto-to-crypto swaps, crypto-to-fiat conversions, and fiat-to-fiat exchanges, ensuring fast, secure, and cost-effective transactions. With a P2P swap feature and an escrow mechanism for secure trading, CashPay provides a reliable and scalable solution for global digital asset exchanges.",
+"role": "I was responsible for developing the website and backend for CashPay, ensuring a seamless user experience and secure transaction processing. I built the backend infrastructure to handle crypto and fiat conversions, P2P swaps, and escrow mechanisms, integrating it with the Polygon blockchain for fast and cost-efficient transactions.",
+"links": [
+    "https://cashpay.co"
+  ],
+"technology":[
+  {"name":"Nest",
+    "image":"/logos/nest.png"
+    }, 
+  {"name":"Mongo",
+  "image":"/logos/mongo.png"
+  },
+  {"name":"Redis",
+  "image":"/logos/redis.png"
+  },
+  {"name":"Rabbitmq",
+  "image":"/logos/rabbitmq.png"
+  },
+  {"name":"Next",
+  "image":"/logos/next.svg"
+  },
+  {"name":"Postgresql",
+  "image":"/logos/postgress.png"
+  },
+  {"name":"Polygon",
+  "image":"/logos/polygon.png"
+  }
+],
+"images":[
+  {
+    "fileName": "Explorer Dashboard",
+    "url": "/cashpay/cashpay_1.png"
+  },
+  {
+    "fileName": "Explorer Blocks",
+    "url": "/cashpay/cashpay_2.png"
+  },
+  {
+    "fileName": "Explorer Api Documentation",
+    "url": "/cashpay/cashpay_3.png"
+  },
+  {
+    "fileName": "Mobile dashboard",
+    "url": "/cashpay/cashpay_4.png"
+  },
+  {
+    "fileName": "Tokens",
+    "url": "/cashpay/cashpay_5.png"
+  },
+  {
+    "fileName": "Search Token",
+    "url": "/cashpay/cashpay_6.png"
+  }
+],
+"architecture":[
+  {
+    "fileName":"Micro Service",
+    "url": "/architecturalDiagrams/archiDiagram.png"
+  },
+  {
+    "fileName":"Micro Service",
+    "url": "/architecturalDiagrams/microServices.png"
+  },
+  {
+    "fileName":"Flow for uploading video",
+    "url": "/architecturalDiagrams/uploadVideoFlow.png"
+  },
+  {
+    "fileName":"Flow for transcoding",
+    "url": "/architecturalDiagrams/transcodingFlow.png"
+  },
+  {
+    "fileName":"Flow to withdraw",
+    "url": "/architecturalDiagrams/paymentFlow.png"
+  }
+]},
+
+  {"heading":"Vupop",
+  "logo":"/vupop/logo.png",
+  "description": "Vupop is an innovative platform designed to streamline video transformation and transcoding, leveraging a robust microservices architecture to ensure scalability and efficiency. It caters to four primary user roles, each with distinct capabilities. Mobile users can upload videos and engage with various video-related activities, creating an interactive and dynamic experience. Managers oversee operations, including inviting editors and managing their activities, ensuring seamless collaboration. Editors have access to a powerful editor panel, enabling them to work on timelines, apply filters, select specific video segments in desired aspect ratio, and transcode videos into the required formats and codecs, meeting diverse content needs. Additionally, administrators manage the platform’s overall operations to maintain efficiency and reliability. Vupop goes beyond video processing by integrating financial functionalities, such as invoice management and secure money transfers, facilitated through trusted platforms like GoCardless and Wise. This comprehensive approach not only enhances video workflow management but also streamlines financial operations, making it a valuable tool for content creators, editors, and managers alike.",
+  "role": "In Vupop, my role focused on developing the backend infrastructure and seamlessly integrating various APIs to enable key functionalities such as video transcoding, user management, and financial operations. I collaborated closely with the client to understand their requirements, ensuring the platform met their expectations while delivering a scalable and efficient solution. This experience highlights my ability to build robust backend systems and maintain effective client communication.",
+  "links": [
+    "https://vupop.io",
+    "https://stagging-manager.vupop.io/broadcaster/login"
+  ],
+  
+  "technology":[
+    {"name":"Node",
+    "image":"/logos/node.png"
+    }, 
+    {"name":"Express",
+    "image":"/logos/express.png"
+    },
+    {"name":"Mongo",
+    "image":"/logos/mongo.png"
+    },
+    {"name":"Redis",
+    "image":"/logos/redis.png"
+    },
+    {"name":"rabbitmq",
+    "image":"/logos/rabbitmq.png"
+    },
+    {"name":"S3 Bucket",
+    "image":"/logos/s3Bucket.svg"
+    },
+    {"name":"Media Convert",
+    "image":"/logos/mediaConvert.png"
+    },
+    {"name":"Go Cardless",
+    "image":"/logos/gocardless.webp"
+    },
+    {"name":"Wise",
+    "image":"/logos/wise.png"
+    }],
+  "images":[
+    {
+      "fileName": "Manager Dashboard",
+      "url": "/vupop/vupop_1.png"
+    },
+    {
+      "fileName": "Editor Timeline",
+      "url": "/vupop/vupop_2.png"
+    },
+    {
+      "fileName": "Export Setiings",
+      "url": "/vupop/vupop_3.png"
+    },
+    {
+      "fileName": "Transactions",
+      "url": "/vupop/vupop_4.png"
+    },
+    {
+      "fileName": "Invoices",
+      "url": "/vupop/vupop_5.png"
+    },
+    {
+      "fileName": "Membership",
+      "url": "/vupop/vupop_6.png"
+    },
+    {
+      "fileName": "App Profile",
+      "url": "/vupop/vupop_7.png"
+    },
+    {
+      "fileName": "Feeds",
+      "url": "/vupop/vupop_8.png"
+    },
+    {
+      "fileName": "Notifications",
+      "url": "/vupop/vupop_9.png"
+    }
+  ],
+  "architecture":[
+    {
+      "fileName":"Micro Service",
+      "url": "/architecturalDiagrams/archiDiagram.png"
+    },
+    {
+      "fileName":"Micro Service",
+      "url": "/architecturalDiagrams/microServices.png"
+    },
+    {
+      "fileName":"Flow for uploading video",
+      "url": "/architecturalDiagrams/uploadVideoFlow.png"
+    },
+    {
+      "fileName":"Flow for transcoding",
+      "url": "/architecturalDiagrams/transcodingFlow.png"
+    },
+    {
+      "fileName":"Flow to withdraw",
+      "url": "/architecturalDiagrams/paymentFlow.png"
+    }
+  ]},
+  {
+  "heading":"SoWhat",
+  "logo": "/sowhat/logo.png",
+  "description": "Sowhat is a platform designed for generating detailed reports on specific topics. Users can create customized reports by selecting topics of interest and schedule them to be delivered automatically on a daily, weekly, or monthly basis. The platform ensures timely delivery of scheduled reports via email or WhatsApp, providing users with valuable insights in a convenient and efficient manner.",
+  "role":"In the Sowhat project, my role focused on backend development. I was responsible for designing and implementing the server-side architecture to support seamless report generation and scheduling. This included creating APIs to handle user requests, integrating scheduling functionality to automate report delivery, and ensuring reliable communication through email and WhatsApp notifications. Additionally, I optimized the backend for performance and scalability, enabling the platform to handle a high volume of scheduled tasks efficiently.",
+  "links": [],
+  "technology":[
+    {"name":"Nest",
+    "image":"/logos/nest.png"
+    },
+    {"name":"Mongo",
+    "image":"/logos/mongo.png"
+    },
+    {"name":"Google Cloud",
+    "image":"/logos/cloudStorage.png"
+    },
+    {"name":"Sendgrid",
+    "image":"/logos/sendgrid.png"
+    },
+    {"name":"ChatGpt",
+    "image":"/logos/chatgpt.jpg"
+    },
+    {"name":"Whatsapp",
+    "image":"/logos/whatsapp.png"
+    }
+  ],
+  "images":[
+    {
+      "fileName": "Landing page",
+      "url": "/sowhat/sowhat_1.png"
+    },
+    {
+      "fileName": "Get free insigt",
+      "url": "/sowhat/sowhat_2.png"
+    },
+    {
+      "fileName": "dashboard",
+      "url": "/sowhat/sowhat_3.png"
+    },
+    {
+      "fileName": "report",
+      "url": "/sowhat/sowhat_4.png"
+    },
+    {
+      "fileName": "payment nad whatsapp integration",
+      "url": "/sowhat/sowhat_5.png"
+    }
+  ],
+  "architecture":[
+    
+    {
+      "fileName":"Flow to generate report",
+      "url": "/architecturalDiagrams/soWhat.png"
+    }
+  ]
+},
+
+{"heading":"Wodproleague",
+  "logo": "/wodpro/logo.png",
+  "description": "WodPro League is a versatile platform available as a website and mobile application, designed to streamline athlete registration and enhance training management. The platform offers a user-friendly interface for athletes to register, track their progress, and access tailored training resources. By combining efficiency and accessibility, WodPro League empowers athletes to achieve their fitness goals effectively.",
+  "role":"As a frontend developer for the WodPro League registration website, I was responsible for designing and implementing a responsive and intuitive user interface. My contributions included creating seamless registration workflows, ensuring cross-device compatibility, and enhancing the overall user experience to meet the platform's functional and aesthetic requirements.",
+  "links": [
+    "https://wodproleague.netlify.app",
+    "https://wodproleague.es"
+  ],
+  "technology":[
+    {"name":"Firebase",
+    "image":"/logos/firebase.svg"
+    },
+    {"name":"React",
+    "image":"/logos/react.svg"
+    },
+    {"name":"Stripe",
+    "image":"/logos/stripe.svg"
+    },
+    {"name":"AWS SES",
+    "image":"/logos/ses.svg"
+    }
+  ],
+  "images":[
+    {
+      "fileName": "Landing page",
+      "url": "/wodpro/wodpro_1.png"
+    },
+    {
+      "fileName": "Register User",
+      "url": "/wodpro/wodpro_2.png"
+    },
+    {
+      "fileName": "Stripe",
+      "url": "/wodpro/wodpro_3.png"
+    },
+    {
+      "fileName": "Contact Page",
+      "url": "/wodpro/wodpro_4.png"
+    },
+    {
+      "fileName": "Contact Page",
+      "url": "/wodpro/wodpro_5.png"
+    }
+  ],
+  "architecture":[
+    
+    {
+      "fileName":"Flow to register",
+      "url": "/architecturalDiagrams/wodpro.png"
+    }
+  ]
+},
+{"heading":"Augment Markit",
+  "logo": "/augment/logo.png",
+  "description": "Augment Markit is an e-commerce platform that allows businesses to manage their online stores seamlessly. It offers an innovative 3D model feature for products, enhancing the shopping experience with interactive previews. Additionally, it provides location-based 3D coupons, enabling customers to unlock exclusive discounts based on their geographic location.",
+  "role":"I developed the frontend for the web and built the backend for Augment Markit, ensuring a seamless and interactive shopping experience. I implemented 3D product models, location-based 3D coupons, and store management features, integrating them with a robust backend for efficient data handling and secure transactions.",
+  "links": [],
+  "technology":[
+    {"name":"Mongo",
+    "image":"/logos/mongo.png"
+    },
+    {"name":"React",
+    "image":"/logos/react.svg"
+    },
+    {"name":"Stripe",
+    "image":"/logos/stripe.svg"
+    },
+    {"name":"Node",
+    "image":"/logos/node.png"
+    },
+    {"name":"Express",
+    "image":"/logos/express.png"
+    }
+  ],
+  "images":[
+    {
+      "fileName": "Seller Dashboard",
+      "url": "/augment/augment_1.png"
+    },
+    {
+      "fileName": "Distribute Coupons",
+      "url": "/augment/augment_2.png"
+    },
+    {
+      "fileName": "Coupons",
+      "url": "/augment/augment_3.png"
+    },
+    {
+      "fileName": "Product",
+      "url": "/augment/augment_4.png"
+    },
+    {
+      "fileName": "Mobile Dashboard",
+      "url": "/augment/augment_5.png"
+    }
+  ],
+  "architecture":[
+    
+    {
+      "fileName":"Flow to register",
+      "url": "/architecturalDiagrams/wodpro.png"
+    }
+  ]
+}
+
+]
+  
