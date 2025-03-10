@@ -62,14 +62,14 @@ const Index = ({ heading, description, logo, role, technology, images, links, ar
       </div>
 
       {/* Architecture Diagrams */}
-      {architecture?.length > 0 && (
+      {/* {architecture?.length > 0 && (
         <div className='my-3'>
           <Heading text="Diagrams:" level="2" />
           <div className="flex justify-center items-center shadow-lg p-2 pb-4">
             <Carousal imageData={architecture} />
           </div>
         </div>
-      )}
+      )} */}
 
       {/* User Interface */}
       <div className='my-3'>
